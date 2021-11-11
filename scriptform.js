@@ -35,13 +35,12 @@ function KKField(event){
       message.innerHTML = " you have to enter at least 6 digit!"
       message.style.color = badColor;
       return false;
-    } else if(pass2.value == pass.value){
+    }if(pass2.value == pass.value){
       message.innerHTML = "character number ok!"
       message.style.color = goodColor;
     }else{
       message.innerHTML = " These passwords don't match"
       message.style.color = badColor;
-      return false;
     }
     
 }
